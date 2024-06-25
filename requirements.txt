@@ -1,5 +1,9 @@
 langchain
 langchain-cohere
-fastapi
 pydantic
 python-dotenv
+fastapi
+uvicorn
+gunicorn
+jinja2
+python-multipart
