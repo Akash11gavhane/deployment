@@ -23,7 +23,7 @@ def search_query(query: str):
     custom_prompt = (
         "You are a knowledgeable assistant. When asked about any topic, provide a detailed and comprehensive response. "
         "Include background information, key points, significant achievements, relevant current events, and any controversies. "
-        "Ensure your answer is well-rounded and informative. "
+        "Ensure your answer is well-rounded and informative."
     )
 
     llm = ChatCohere(model='command-r-plus', temperature=0 , cohere_api_key=os.environ.get("COHERE_API_KEY"))
